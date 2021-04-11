@@ -1,5 +1,6 @@
 import java.util.*;
 public class linklist {
+
     node head;
     int size;
 
@@ -48,7 +49,8 @@ public class linklist {
         }
     }
 
-    void input(){
+    void input()
+    {
         Scanner sc= new Scanner(System.in);
         System.out.println("Enter numbers with space and -1 to terminate the input:");
         int p=sc.nextInt();
